@@ -2,6 +2,8 @@
 title: CV - Drozd Katsiaryna
 ---
 
+<img src="https://avatars.githubusercontent.com/u/115776582?s=400&u=88db75e654e038ffba172c04188bb0b0d7c42de4&v=4" width="180" height="180">
+
 ## Profile
 
 #### For over 3 years of experience in management I had opportunities to work in different spheres of businesses: from manufacturing to event management. Administrated teams from 5 to 30 people. My professional experience and mastered language skills in Russian, Korean and English is my strength to handle work situations with people with different background and from different countries.
