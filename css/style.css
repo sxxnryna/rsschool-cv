@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@
 
   a{
     text-decoration-line : none;
-    color: black;
+    color: rgb(204, 204, 204);
   }
 
   ul li{
@@ -19,14 +21,14 @@
     margin: 5px;
     align-items: center;
     height: fit-content;
-
   }
 
   div.navi{
     height: fit-content; 
     margin-top: auto;
-    margin-bottom: auto
-  }
+    margin-bottom: auto;
+}
+    
 
   body {
     background: rgb(178, 186, 189);
@@ -41,7 +43,8 @@
     display: grid;
     grid-column: 1fr 1fr;
     width: 100%;
-    max-width: 50%;
+    max-width: 1000px;
+    min-height: 1000px;
     margin: 50px;
     height: fit-content; 
     background: #fff;
@@ -54,6 +57,7 @@
     padding: 20px 30px;
     height: fit-content;  
     background-color: #676a6b;
+    
   }
 
   main{
@@ -62,26 +66,28 @@
 
   .leftSide{
     display: grid;
-    padding: 20px;
+    padding: 45px 20px 20px 45px;
     margin: 0px;
-    height:max-content;
+    height: fit-content;
+    width:max-content;
     position: relative;
-    background-color: aliceblue;
   }
 
-  .photo {
+
+
+  .photo, .jobTitle, .contatcs{
     height: fit-content;
+    width: fit-content;
   }
-  
-  .contatcs{
-    height: fit-content;
-  }
+
+
 
   .rightSide{
     display: grid;
     margin: 20px;
     padding: 20px;
     position: relative;
+    background-color: aliceblue;
   }
 
   .jobTitle, .contacts{
@@ -89,14 +95,41 @@
   }
 
   .contacts ul li{
-    padding: 8px 0px 0px 0px;
+    padding: 4px 10px 0px 0px;
+    width: 220px;
+  }
+
+  .contacts ul li .icon {
+    display: inline-block;
+    width: fit-content;
+    font-size: 18px;
+    color: #03a9f4;
   }
 
   .education, .skills, .codeSample, .projects, .language{
     padding: 20px 0px 0px 0px;
   }
 
+  .education h5{
+    padding: 10px 0px;
+  }
 
+  pre {
+    background: #ecf2f7;
+    border: 1px solid #534141;
+    border-left: 3px solid #707070;
+    color: #8a7a7a;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
 
   footer{
     display: flex;
@@ -104,6 +137,7 @@
     padding: 20px 50px;
     height: fit-content;  
     background-color: #676a6b;
+    color:#d1d1d1;
   }
 
   div.date{
@@ -174,9 +208,36 @@
   }
 
   h3{
-    padding: 0px 0px 10px 0px;
+    padding: 10px 0px 20px 0px;
   }
 
-  
+  h1{
+    color:rgb(228, 228, 228)
+  }
 
+  .photo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .photo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  @media screen and (min-width: 660px) and (max-width: 1200px) {
+    .classForaMediumScreen {
+      background: #cc0000;
+      width: 30%;
+      float: right;
+    }
+  }
 
