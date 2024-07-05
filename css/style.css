@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  a{
+    text-decoration-line : none;
+    color: black;
+  }
+
+  ul li{
+    list-style-type:none;
+  }
+
+  nav ul.nav li{
+    display: inline;
+    margin: 5px;
+    align-items: center;
+    height: fit-content;
+
+  }
+
+  div.navi{
+    height: fit-content; 
+    margin-top: auto;
+    margin-bottom: auto
+  }
+
+  body {
+    background: rgb(178, 186, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+  }
+  
+  .container {
+    display: grid;
+    grid-column: 1fr 1fr;
+    width: 100%;
+    max-width: 50%;
+    margin: 50px;
+    height: fit-content; 
+    background: #fff;
+    box-shadow: 0 35px 55px rgb(0, 0, 0);
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    height: fit-content;  
+    background-color: #676a6b;
+  }
+
+  main{
+    display: flex;
+  }
+
+  .leftSide{
+    display: grid;
+    padding: 20px;
+    margin: 0px;
+    height:max-content;
+    position: relative;
+    background-color: aliceblue;
+  }
+
+  .photo {
+    height: fit-content;
+  }
+  
+  .contatcs{
+    height: fit-content;
+  }
+
+  .rightSide{
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+  }
+
+  .jobTitle, .contacts{
+    padding: 20px 0px 0px 0px;
+  }
+
+  .contacts ul li{
+    padding: 8px 0px 0px 0px;
+  }
+
+  .education, .skills, .codeSample, .projects, .language{
+    padding: 20px 0px 0px 0px;
+  }
+
+
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    height: fit-content;  
+    background-color: #676a6b;
+  }
+
+  div.date{
+    height: fit-content; 
+    margin-top: auto;
+    margin-bottom: auto
+  }
+
+  .leftSide h2{
+    font-size: 20px;
+  }
+
+  .education li{
+    margin-bottom: 15px;
+  }
+  
+  .education h5{
+    color: #323e44;
+    font-weight: 500;
+  }
+  
+  .education h4:nth-child(2){
+    color: #000000;
+    font-weight: 500;
+  }
+  
+  .education h4{
+    color: #332f2f;
+    font-weight: 300;
+  }
+
+  .language .percent{
+    position: relative;
+    width: 35%;
+    height: 6px;
+    background: #091921;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .language .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+  }
+
+  .skills .percent{
+    position: relative;
+    width: 35%;
+    height: 6px;
+    background: #091921;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .skills .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+  }
+
+  p{
+    text-indent: 20px;
+  }
+
+  h3{
+    padding: 0px 0px 10px 0px;
+  }
+
+  
+
+
