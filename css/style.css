@@ -17,7 +17,9 @@
   }
 
   nav ul.nav li{
-    display: inline;
+    display: flex;
+justify-content: flex-start; /* аналог горизонтального поведения */
+align-items: center;
     margin: 5px;
     align-items: center;
     height: fit-content;
@@ -100,7 +102,9 @@
   }
 
   .contacts ul li .icon {
-    display: inline-block;
+    display: flex;
+justify-content: flex-start;
+align-items: center;
     width: fit-content;
     font-size: 18px;
     color: #03a9f4;
